@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvLocation"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_location"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/weather_day_location" />
+
+    <TextView
+        android:id="@+id/tvCurrentWeather"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_status"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvLocation"
+        tools:text="@string/weather_day_status" />
+
+    <TextView
+        android:id="@+id/tvCurrentTemp"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_temp"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCurrentWeather"
+        tools:text="@string/weather_day_temp" />
+
+    <TextView
+        android:id="@+id/tvFeelsLike"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_feels_like"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCurrentTemp"
+        tools:text="@string/weather_day_feels_like" />
+
+    <TextView
+        android:id="@+id/tvMinTemp"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_temp_min"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFeelsLike"
+        tools:text="@string/weather_day_temp_min" />
+
+    <TextView
+        android:id="@+id/tvMaxTemp"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_temp_max"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMinTemp"
+        tools:text="@string/weather_day_temp_max" />
+
+    <TextView
+        android:id="@+id/tvPressure"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_pressure"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvMaxTemp"
+        tools:text="@string/weather_day_pressure" />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        style="@style/Widget.App.TextView.Title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_day_humidity"
+        android:textAppearance="?textAppearanceTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvPressure"
+        tools:text="@string/weather_day_humidity" />
+
+    <Button
+        android:id="@+id/btnMoreDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/gap_medium"
+        android:text="@string/weather_day_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvHumidity" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

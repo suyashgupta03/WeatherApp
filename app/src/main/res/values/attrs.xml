@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="textAppearanceHeadline" format="reference" />
+    <attr name="textAppearanceHeader" format="reference" />
+    <attr name="textAppearanceTitle" format="reference" />
+    <attr name="textAppearanceError" format="reference" />
+
+    <attr name="colorTextDefault" format="reference" />
+</resources>
