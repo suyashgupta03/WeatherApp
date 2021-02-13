@@ -37,12 +37,12 @@ android {
         debug {
             minifyEnabled false
             buildConfigField("String", "SERVER_URL", "\"https://community-open-weather-map.p.rapidapi.com/\"")
-            buildConfigField("String", "KEY_WEATHER_API", "\"bfb158935emshd25b0bf7e2a4109p164c94jsn099e481b6559\"")
+            buildConfigField("String", "KEY_WEATHER_API", "\"key\"")
             signingConfig signingConfigs.debug
         }
         release {
             buildConfigField("String", "SERVER_URL", "\"https://community-open-weather-map.p.rapidapi.com/\"")
-            buildConfigField("String", "KEY_WEATHER_API", "\"bfb158935emshd25b0bf7e2a4109p164c94jsn099e481b6559\"")
+            buildConfigField("String", "KEY_WEATHER_API", "\"key\"")
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.release
