@@ -3,9 +3,9 @@
 An Android app that displays the weather forecast of a user location. The app will gather the users location and hit an API (ex: community open weather) to display the weather of next 7 days.
 Also, user will have the ability to see a more detailed view of the weather for each of those days.
 
-###Functionality:
-The app contains the following functionality:
+### Functionality:
 
+The app contains the following functionality:
 - The 7 day forecast is displayed using a View Pager
 - The app uses an room database and displays the data while the phone is offline
 - The transition to the detailed view uses a custom animation
